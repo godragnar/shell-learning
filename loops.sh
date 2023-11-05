@@ -3,7 +3,7 @@
 #while loop-if we were using expressions
 #for loops-if we were using inputs
 
-a=10
+a=5
 while [ "$a" -gt 0 ]; do
     echo kiran
     a=$(($a-1))
