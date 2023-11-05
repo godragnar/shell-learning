@@ -8,3 +8,8 @@ while [ "$a" -gt 0 ]; do
     echo kiran
     a=$(($a-1))
 done
+
+for cars in Benz BMW Audi; do
+  echo carname-$cars
+  sleep 1
+done
